@@ -5,7 +5,7 @@ const weatherData = document.getElementById('weatherData');
 
 getWeatherBtn.addEventListener('click', () => {
     const city = cityInput.value;
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${'49b47a790fmsh26d0c21a3e7d5cdp15c802jsnb3a7ce1cf346'}`)
         .then(response => response.json())
         .then(data => {
             const temperature = (data.main.temp - 273.15).toFixed(2); // Convert to Celsius
