@@ -8,7 +8,7 @@ getWeatherBtn.addEventListener('click', () => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${'49b47a790fmsh26d0c21a3e7d5cdp15c802jsnb3a7ce1cf346'}`)
         .then(response => response.json())
         .then(data => {
-            const temperature = (data.main.temp - 273.15).toFixed(2); // Convert to Celsius
+            const temperature = (data.main.temp - 273.15).toFixed(2); 
             const weatherDescription = data.weather[0].description;
             const cityName = data.name;
             weatherData.innerHTML = `
