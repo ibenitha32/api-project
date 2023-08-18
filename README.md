@@ -22,24 +22,6 @@ This is a simple web application that fetches and displays weather information f
 
 5. **Error Handling**: If there's an issue with the API request, the JavaScript code catches the error and logs it to the console. This ensures that the application gracefully handles errors and provides feedback to the user.
 
-## Setup and Usage
-
-1. Obtain an API Key: Visit the [OpenWeatherMap website](https://openweathermap.org/) and sign up for a free API key. Replace `'YOUR_OPENWEATHERMAP_API_KEY'` in `script.js` with your actual API key.
-
-2. Clone the Repository: Clone this repository to your local machine using your preferred method.
-
-3. Open `index.html`: Simply open the `index.html` file in a web browser to use the application.
-
-4. Interact with the App: Enter a city name in the input field and click the "Get Weather" button. The application will fetch and display the current temperature and weather description for the entered city.
-
-## Future Improvements
-
-- Add more weather-related data such as humidity, wind speed, etc.
-- Implement geolocation to automatically fetch weather for the user's current location.
-- Enhance the UI with more styling and responsiveness.
-- Allow users to switch between Celsius and Fahrenheit.
-
-Feel free to contribute to the project by making improvements or adding new features!
 
 ## Credits
 
