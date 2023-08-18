@@ -1,4 +1,4 @@
-# api-project
+# API-project
 
 # Weather App
 
